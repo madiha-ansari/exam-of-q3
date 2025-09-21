@@ -1,0 +1,56 @@
+Top-k technique ka main purpose kya hota hai?
+a) AI ke answers ko zyada deterministic banana
+b) AI ko sirf ek word choose karne dena
+c) Possible words ko limit karna sirf top k options tak
+d) Random numbers generate karna
+
+Q2. Agar Top-k = 1 ho, to AI hamesha kya karega?
+a) Random word choose karega
+b) Sirf sabse probable (most likely) word choose karega
+c) Top 5 words me se select karega
+d) Rare word choose karega
+
+Q3. Agar sentence ho: "I want to eat ___" aur Top-k = 5, to niche me se kaunsa answer aa sakta hai?
+a) Pizza
+b) Food
+c) Cake
+d) Bread
+e) All of the above
+
+Q4. Kaunsa setting AI ke answers me sabse zyada variety laaye ga?
+a) Top-k = 1
+b) Top-k = 5
+c) Top-k = 50
+d) Top-k = 0
+
+Q5. Agar Top-k value zyada ho, to AI ke jawab:
+a) Zyada predictable hote hain
+b) Variety aur creativity zyada hoti hai
+c) Bilkul repeat hote hain
+d) Sirf ek hi word select hota hai
+
+
+
+
+
+
+
+
+Answer Key: Top-k Quiz
+
+Q1. c) Possible words ko limit karna sirf top k options tak
+Q2. b) Sirf sabse probable (most likely) word choose karega
+Q3. e) All of the above
+Q4. c) Top-k = 50
+Q5. b) Variety aur creativity zyada hoti hai
+
+
+
+
+
+
+
+
+
+
+

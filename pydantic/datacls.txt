@@ -1,0 +1,121 @@
+dataclasses.dataclass vs pydantic.BaseModel
+
+Q1.
+Which library provides dataclasses.dataclass?
+a) Pydantic
+b) Python Standard Library
+c) NumPy
+d) FastAPI
+
+✅ Answer: b) Python Standard Library
+
+Q2.
+What is the main purpose of pydantic.BaseModel?
+a) Just storing data
+b) Automatic validation and parsing
+c) Creating random numbers
+d) Improving IDE colors
+
+✅ Answer: b) Automatic validation and parsing
+
+Q3.
+What happens if you pass a string "20" instead of an integer 20 to a dataclass field?
+a) It will throw an error
+b) It will automatically convert it
+c) It will silently accept it
+d) It will stop the program
+
+✅ Answer: c) It will silently accept it
+
+Q4.
+What happens if you pass a string "20" instead of an integer 20 to a BaseModel field?
+a) It will throw an error always
+b) It will try to convert it to integer
+c) It will ignore the value
+d) It will accept without check
+
+✅ Answer: b) It will try to convert it to integer
+
+Q5.
+Which option best describes when to use dataclasses.dataclass?
+a) When you need strict validation
+b) When you want automatic parsing
+c) When you only need a lightweight container for data
+d) When building an API with FastAPI
+
+✅ Answer: c) When you only need a lightweight container for data
+
+Q6.
+Which option best describes when to use pydantic.BaseModel?
+a) For simple data containers
+b) For runtime validation and type safety
+c) For styling HTML pages
+d) For faster loops
+
+✅ Answer: b) For runtime validation and type safety
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from pydantic import BaseModel
+
+class User(BaseModel):
+    id: int
+    name: str
+    age: int
+
+# Example use
+user = User(id=1, name="Ali", age="20")
+print(user)
+
+
+
+
+from dataclasses import dataclass
+
+@dataclass
+class User:
+    id: int
+    name: str
+    age: int
+
+# Example use
+user = User(id=1, name="Ali", age="20")  # ❌ Galti: age string di
+print(user)

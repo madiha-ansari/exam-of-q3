@@ -1,0 +1,36 @@
+Chain-of-Thought Prompting
+
+Q1.
+What is the main idea behind Chain-of-Thought prompting?
+a) To make AI answers shorter
+b) To force AI to think step-by-step before giving the final answer ✅
+c) To store user data in memory
+d) To generate random text
+
+Q2.
+Which phrase is often enough to trigger Chain-of-Thought reasoning in AI?
+a) “Answer directly.”
+b) “Think step-by-step.” ✅
+c) “Be creative.”
+d) “Ignore details.”
+
+Q3.
+When should you use Chain-of-Thought prompting?
+a) For math word problems and logical puzzles ✅
+b) For simple factual questions like “Capital of Pakistan?”
+c) When asking for passwords
+d) For harmful instructions
+
+Q4.
+What is one risk of Chain-of-Thought prompting?
+a) It always refuses to answer
+b) It may produce long but incorrect reasoning ✅
+c) It reduces accuracy in logic problems
+d) It hides the final answer
+
+Q5.
+In a real-life analogy, Chain-of-Thought prompting is similar to:
+a) A student writing only the final answer in an exam
+b) A student showing all the working steps before the final answer ✅
+c) Teacher giving rules of exam
+d) Random guessing in test

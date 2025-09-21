@@ -1,0 +1,59 @@
+Quiz: Dataclasses as output_type in Agents
+
+Q1.
+Why would you use a dataclass as output_type in an agent?
+a) To store random text output
+b) To automatically structure AI output into a Python object
+c) To increase LLM creativity
+d) To replace JSON with plain strings
+
+✅ Answer: b) To automatically structure AI output into a Python object
+
+Q2.
+What happens when you define a dataclass as output_type?
+a) The LLM ignores the schema and returns free text
+b) The agent parses and validates the LLM’s response into the dataclass
+c) The dataclass is converted into plain dictionaries only
+d) The program crashes by default
+
+✅ Answer: b) The agent parses and validates the LLM’s response into the dataclass
+
+Q3.
+Which of the following is a correct benefit of using dataclasses with agents?
+a) No need for IDE support
+b) Automatic text-to-audio conversion
+c) Strong typing and reduced parsing errors
+d) Faster GPU training
+
+✅ Answer: c) Strong typing and reduced parsing errors
+
+Q4.
+If you define:
+
+@dataclass
+class WeatherInfo:
+    location: str
+    temperature: float
+    condition: str
+
+
+and the agent outputs weather info for Karachi, what will you get?
+a) A plain string response
+b) A Python object of type WeatherInfo
+c) A JSON file on disk
+d) A database record
+
+✅ Answer: b) A Python object of type WeatherInfo
+
+Q5.
+In real-world use, why are dataclasses as output_type especially useful?
+a) They make AI answers shorter
+b) They provide structured, predictable data that integrates well with APIs, databases, and UIs
+c) They allow AI to skip validation
+d) They prevent the need for LLMs
+
+✅ Answer: b) They provide structured, predictable data that integrates well with APIs, databases, and UIs
+
+
+
+

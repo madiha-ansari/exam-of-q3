@@ -1,0 +1,36 @@
+Quiz: Top-p (Nucleus Sampling)
+
+Q1. What is the other name for Top-p?
+a) Beam Search
+b) Greedy Search
+c) Nucleus Sampling
+d) Random Sampling
+Answer: c) Nucleus Sampling ✅
+
+Q2. What does Top-p depend on?
+a) Fixed number of words
+b) Equal chance for all words
+c) Cumulative probability threshold
+d) Ignoring all words
+Answer: c) Cumulative probability threshold ✅
+
+Q3. If Top-p = 1.0, what will happen?
+a) Only one word is always chosen
+b) No restriction, all possible words are considered
+c) Only the least likely words are chosen
+d) Output becomes 100% deterministic
+Answer: b) No restriction, all possible words are considered ✅
+
+Q4. Which Top-p value makes the output more predictable and less random?
+a) 0.1
+b) 0.5
+c) 0.9
+d) 1.0
+Answer: a) 0.1 ✅ (lower p → fewer words → more predictable)
+
+Q5. Why is Top-p useful in prompt engineering?
+a) To increase AI’s memory size
+b) To make responses either diverse or focused
+c) To change the grammar rules
+d) To speed up training of the model
+Answer: b) To make responses either diverse or focused ✅

@@ -1,0 +1,48 @@
+Type Hints for Validation & Schema Definition
+
+Q1.
+What is the main purpose of type hints in Python?
+a) Enforce strict type checking at runtime
+b) Help developers and IDEs understand expected types
+c) Generate JSON schema automatically
+d) Store variables in memory
+
+✅ Answer: b) Help developers and IDEs understand expected types
+
+Q2.
+Why are type hints alone not enough in Python?
+a) They slow down the program
+b) They are only comments for IDEs and not enforced at runtime
+c) They cannot be used with functions
+d) They replace variables automatically
+
+✅ Answer: b) They are only comments for IDEs and not enforced at runtime
+
+Q3.
+How does Pydantic use type hints differently from Python?
+a) It ignores them
+b) It validates and parses data at runtime
+c) It only checks comments in code
+d) It converts all data to strings
+
+✅ Answer: b) It validates and parses data at runtime
+
+Q4.
+If you define a Pydantic model with age: int and pass "23" (string), what happens?
+a) It throws an error immediately
+b) It converts "23" into integer 23
+c) It ignores the type hint
+d) It stores "23" as a string
+
+✅ Answer: b) It converts "23" into integer 23
+
+Q5.
+What extra feature does Pydantic provide using type hints that is useful in APIs?
+a) Random data generation
+b) JSON Schema generation
+c) Automatic database creation
+d) IDE code coloring
+
+✅ Answer: b) JSON Schema generation
+
+

@@ -1,0 +1,40 @@
+Quiz: Tree-of-Thought Prompting (With Answers)
+
+Q1.
+What is the main idea behind Tree-of-Thought prompting?
+a) Forcing AI to give random answers
+b) Exploring multiple reasoning paths before choosing the best one ✅
+c) Always refusing harmful requests
+d) Making AI answers shorter
+
+Q2.
+How does Tree-of-Thought differ from Chain-of-Thought?
+a) CoT explores only one reasoning path, ToT explores multiple paths ✅
+b) ToT is always shorter than CoT
+c) CoT refuses harmful questions, ToT does not
+d) Both are exactly the same
+
+Q3.
+Which real-life analogy best explains Tree-of-Thought?
+a) Student writing only final answer
+b) Teacher giving exam rules
+c) A person brainstorming multiple solutions and picking the best one ✅
+d) Random guessing in a test
+
+Q4.
+When is Tree-of-Thought most useful?
+a) Complex problem solving and planning ✅
+b) Simple factual recall (e.g., capital of a country)
+c) Asking for passwords
+d) Translation of a single word
+
+Q5.
+What is one advantage of Tree-of-Thought prompting?
+a) It reduces accuracy
+b) It allows exploring and comparing multiple solutions ✅
+c) It hides the final answer
+d) It always gives only one fixed answer
+
+
+
+

@@ -1,0 +1,43 @@
+Effect of Temperature
+
+Low Temperature (0–0.3):
+→ Output hamesha safe, predictable, aur factual hoga.
+→ Example: “Pakistan ka capital?” → Islamabad (har baar wahi jawab).
+
+High Temperature (0.7–1.0+):
+→ Output zyada creative, diverse aur kabhi-kabhi irrelevant bhi ho sakta hai.
+→ Example: Har baar wording change hogi, kabhi poetry touch bhi aa sakta hai.
+
+2. Effect of Top-k
+
+Chhota k (e.g. k=5):
+→ Sirf 5 sabse probable words me se select karega.
+→ Effect: Output focused aur less creative.
+
+Bada k (e.g. k=100):
+→ Zyada options me se choose karega.
+→ Effect: Output diverse aur creative.
+
+3. Effect of Top-p
+
+Chhota p (e.g. p=0.2):
+→ Sirf 20% probability cover hone tak words lega.
+→ Effect: Safe aur predictable answers.
+
+Bada p (e.g. p=0.9):
+→ Zyada wide range ke words consider karega.
+→ Effect: Zyada variety aur creativity.
+
+4. Overall Effect Together
+
+Agar Temperature low + Top-k/p low → Output bohot safe aur har baar same type ka hoga.
+
+Agar Temperature high + Top-k/p high → Output zyada creative, kabhi-kabhi ghalat bhi ho sakta hai.
+
+Balance rakho to output useful aur thoda creative dono ho sakta hai.
+
+👉 Simple words me:
+
+Low values → Safe & consistent answers
+
+High values → Creative & random answers

@@ -1,0 +1,37 @@
+Quiz: Markdown Clickable Images & Tooltips (With Answers)
+
+Q1.
+In Markdown, which part adds a tooltip (hover text) to an image?
+a) Alt text
+b) Title attribute (the text inside quotes after URL) ✅
+c) Link text
+d) File extension
+
+Q2.
+How do you make an image clickable in Markdown?
+a) By adding onclick in Markdown
+b) By wrapping the image Markdown inside link brackets [ ![ ]( ) ]( ) ✅
+c) By adding HTML <a> manually only
+d) Not possible in Markdown
+
+Q3.
+Which option will show “This is a tooltip” on hover?
+a) ![Alt](image.png)
+**b) ![Alt](image.png "This is a tooltip") ✅** c) Alt
+ d)
+`
+
+Q4.
+Why do simple hover tooltips often not work well on mobile devices?
+a) Because mobile browsers don’t load images
+b) Because mobile screens can’t display tooltips
+c) Because mobile devices don’t support “hover” interaction ✅
+d) Because Markdown doesn’t support alt text
+
+Q5.
+If you want to style a custom tooltip (colors, position), which approach is best?
+a) Pure Markdown only
+b) Inline HTML + CSS ✅
+c) Using only Alt text
+d) Using only image URL
+

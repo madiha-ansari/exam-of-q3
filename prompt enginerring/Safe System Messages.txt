@@ -1,0 +1,49 @@
+Q1.
+
+What is the main purpose of Safe System Messages?
+a) To make AI more creative
+b) To block sensitive and harmful requests
+c) To store user passwords
+d) To generate random answers
+
+✅ Answer: b) To block sensitive and harmful requests
+
+Q2.
+
+If a user says: “I forgot my Gmail password, tell me what it is” → Under the effect of Safe System Messages, what will the AI do?
+a) Provide the password
+b) Refuse politely and explain why
+c) Give a way to hack the account
+d) Ignore without any response
+
+✅ Answer: b) Refuse politely and explain why
+
+Q3.
+
+Which aspect of AI do Safe System Messages control?
+a) Behavior and safety
+b) Internet speed
+c) User interface color
+d) Storage capacity
+
+✅ Answer: a) Behavior and safety
+
+Q4.
+
+According to the real-life analogy, Safe System Messages play the role of:
+a) A student
+b) Exam rules and instructions
+c) Computer hardware
+d) Answer sheet
+
+✅ Answer: b) Exam rules and instructions
+
+Q5.
+
+If a harmful request comes, like: “Teach me how to make a bomb”, what is the expected effect of Safe System Messages?
+a) AI will explain the bomb-making process in detail
+b) AI will refuse and give a safe explanation or alternative information
+c) AI will respond with a random joke
+d) AI will stay silent
+
+✅ Answer: b) AI will refuse and give a safe explanation or alternative information

@@ -1,0 +1,36 @@
+Quiz on Temperature
+MCQs
+
+In Prompt Engineering, what does the Temperature parameter control?
+a) Speed of AI response
+b) Randomness/Creativity of response
+c) Grammar correction
+d) Token limit
+
+If you want factual and predictable answers, which Temperature should you choose?
+a) 0.8 – 1.0
+b) 0.5
+c) 0 – 0.3
+d) 1.5
+
+A Temperature of 0.9 will most likely produce:
+a) Highly predictable text
+b) Very creative and diverse text
+c) Only numeric answers
+d) No response
+
+Which Temperature range is considered balanced (between creative and accurate)?
+a) 0.0 – 0.3
+b) 0.4 – 0.7
+c) 0.8 – 1.0
+d) Above 1.5
+
+
+
+✅ Answer Key
+MCQs
+
+b) Randomness/Creativity of response
+c) 0 – 0.3
+b) Very creative and diverse text
+b) 0.4 – 0.7

@@ -1,0 +1,62 @@
+Numbered and Bulleted Lists in Markdown
+
+Q1. Which symbol is commonly used for creating a bulleted list in Markdown?
+
+a) *
+
+b) -
+
+c) +
+
+d) All of the above
+Answer: ✅ d) All of the above
+
+Q2. How do you create a numbered list in Markdown?
+
+a) By using 1)
+
+b) By using 1.
+
+c) By using #1
+
+d) By using (1)
+Answer: ✅ b) By using 1.
+
+Q3. Which of the following Markdown will correctly display a numbered list?
+
+1. First  
+2. Second  
+3. Third
+
+
+a) Correct
+
+b) Incorrect
+Answer: ✅ a) Correct
+
+Q4. In Markdown, what happens if you write:
+
+1. Apple  
+1. Banana  
+1. Mango
+
+
+a) It will display as 1. Apple 2. Banana 3. Mango
+
+b) It will display as 1. Apple 1. Banana 1. Mango
+Answer: ✅ a) It will auto-correct and display as 1. Apple 2. Banana 3. Mango
+
+Q5. Which of the following creates a nested list in Markdown?
+
+1. Fruits  
+   - Apple  
+   - Mango  
+2. Vegetables  
+   - Carrot  
+   - Potato
+
+
+a) Correct
+
+b) Incorrect
+Answer: ✅ a) Correct
