@@ -1,0 +1,50 @@
+OpenAI Agents SDK – Quiz
+
+Q1. What does handoff mean in the context of OpenAI Agents SDK?
+a) Ending the conversation
+b) Transferring a task to another agent or function
+c) Removing an agent from the system
+d) Logging the user input
+✅ Answer: b) Transferring a task to another agent or function
+
+Q2. Which of the following best describes parameters in Agents SDK?
+a) Random text provided by the user
+b) Structured inputs (like JSON schema) required by a function or tool
+c) Error handling methods
+d) A way to connect two agents
+✅ Answer: b) Structured inputs (like JSON schema) required by a function or tool
+
+Q3. What is a callback?
+a) A duplicate function call
+b) A function that runs after a task has been executed
+c) A parameter for handoff
+d) A type of handoff request
+✅ Answer: b) A function that runs after a task has been executed
+
+Q4. Which callback is triggered when a task fails?
+a) onSuccess
+b) onError
+c) onHandoff
+d) onTask
+✅ Answer: b) onError
+
+Q5. Why are handoffs useful in multi-agent systems?
+a) They stop an agent from answering
+b) They transfer tasks to the most suitable agent or function
+c) They remove unnecessary parameters
+d) They store logs of previous conversations
+✅ Answer: b) They transfer tasks to the most suitable agent or function
+
+Q6. Which of the following is an example of a parameter?
+a) username: "Ali", amount: 100
+b) onSuccess callback
+c) Handoff to Billing Agent
+d) Error message log
+✅ Answer: a) username: "Ali", amount: 100
+
+Q7. Usage of callbacks in Agents SDK includes:
+a) Updating the UI after success
+b) Handling errors
+c) Triggering other tasks
+d) All of the above
+✅ Answer: d) All of the above

@@ -1,0 +1,57 @@
+Quiz: Tool Calling & Error Handling in Agents SDK
+
+Q1. What is the purpose of tool calling in OpenAI Agents SDK?
+a) To end an agent’s conversation
+b) To execute external functions/APIs with structured input
+c) To store user data in logs
+d) To create a new agent automatically
+✅ Answer: b) To execute external functions/APIs with structured input
+
+Q2. In the example transfer_money("Ali", 100), what is happening?
+a) An error is raised because amount is invalid
+b) A handoff is performed to another agent
+c) A tool is being called with parameters (username & amount)
+d) A callback is removed
+✅ Answer: c) A tool is being called with parameters (username & amount)
+
+Q3. Which of the following is NOT an error type during tool execution?
+a) Validation error
+b) API error
+c) Execution error
+d) Multiplication error
+✅ Answer: d) Multiplication error
+
+Q4. If a tool receives amount = "abc" instead of a number, which error type occurs?
+a) Validation error
+b) Execution error
+c) API error
+d) Handoff error
+✅ Answer: a) Validation error
+
+Q5. What happens when a tool call fails in Agents SDK?
+a) The agent always stops execution immediately
+b) The error can be caught and handled using callbacks like onError
+c) The agent deletes the tool automatically
+d) The agent restarts the conversation
+✅ Answer: b) The error can be caught and handled using callbacks like onError
+
+Q6. Which callback is triggered when a tool executes successfully?
+a) onSuccess
+b) onError
+c) onRetry
+d) onFail
+✅ Answer: a) onSuccess
+
+Q7. What is the role of fallback in error handling?
+a) To delete the error logs
+b) To retry with another tool or provide a friendly message
+c) To stop all tool calls
+d) To ignore parameters
+✅ Answer: b) To retry with another tool or provide a friendly message
+
+Q8. In the given Python example, what output will be shown if we call transfer_money("Ali", -50)?
+a) ✅ Success: Transferred $-50 to Ali
+b) ❌ Error: Amount must be greater than zero
+c) API not found error
+d) Handoff to Billing Agent
+✅ Answer: b) ❌ Error: Amount must be greater than zero

@@ -1,0 +1,46 @@
+Quiz: Dynamic Instruction & Context Object
+
+Q1. What is the main purpose of dynamic instruction in OpenAI Agent SDK?
+a) To permanently change the agent’s base instruction
+b) To modify agent behavior at runtime
+c) To replace context object
+d) To store tool outputs
+
+✅ Answer: b) To modify agent behavior at runtime
+
+Q2. Which of the following is a good example of using dynamic instruction?
+a) Storing a user’s last location
+b) Making the agent always reply in short sentences only during business hours
+c) Saving tool results in memory
+d) Defining a static system prompt
+
+✅ Answer: b) Making the agent always reply in short sentences only during business hours
+
+Q3. What does the context object primarily do?
+a) Updates system instructions
+b) Acts as shared memory between the agent and tools
+c) Deletes old agent instructions
+d) Replaces API calls
+
+✅ Answer: b) Acts as shared memory between the agent and tools
+
+Q4. If one tool saves "last_location" = "Paris" in the context, how can another tool use it?
+a) By rewriting the instructions
+b) By reading context["last_location"]
+c) By restarting the agent
+d) By calling agent.add_instruction()
+
+✅ Answer: b) By reading context["last_location"]
+
+Q5. In simple terms:
+
+Dynamic instruction = ?
+
+Context object = ?
+
+a) Current rule / Short-term memory
+b) Static prompt / Long-term memory
+c) Permanent rules / Agent history
+d) API call / Database
+
+✅ Answer: a) Current rule / Short-term memory
