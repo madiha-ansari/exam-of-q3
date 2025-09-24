@@ -1,0 +1,49 @@
+📝 Quiz: Guardrails in OpenAI Agents SDK
+
+Q1. What is the main purpose of guardrails in OpenAI Agents SDK?
+a) To improve the speed of agent responses
+b) To restrict boundaries and ensure safety/compliance
+c) To store user session data
+d) To reduce API cost
+
+✅ Answer: b) To restrict boundaries and ensure safety/compliance
+
+Q2. At which stage do pre-input guardrails operate?
+a) After the tool execution
+b) Before the user input is processed
+c) After final response generation
+d) During API call billing
+
+✅ Answer: b) Before the user input is processed
+
+Q3. What do pre-tool guardrails check?
+a) Whether the tool’s output is harmful
+b) Whether the tool call’s arguments are valid
+c) Whether the final response is safe
+d) Whether the agent has enough memory
+
+✅ Answer: b) Whether the tool call’s arguments are valid
+
+Q4. Which guardrail type ensures that the final response to the user is safe and compliant?
+a) Pre-input guardrail
+b) Post-tool guardrail
+c) Post-output guardrail
+d) Tripwire guardrail
+
+✅ Answer: c) Post-output guardrail
+
+Q5. What is a tripwire in the context of guardrails?
+a) A mechanism to speed up agent processing
+b) A trigger that detects violations and blocks unsafe behavior
+c) A storage system for tool results
+d) A debugging tool for developers
+
+✅ Answer: b) A trigger that detects violations and blocks unsafe behavior
+
+Q6. Example: If the user input contains a credit card number, which mechanism blocks it?
+a) Pre-tool guardrail
+b) Post-tool guardrail
+c) Tripwire
+d) Context object
+
+✅ Answer: c) Tripwire
